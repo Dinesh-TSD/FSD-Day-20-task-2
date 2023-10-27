@@ -1,0 +1,38 @@
+
+header{
+    background-color: rgb(88, 82, 190);
+    color: white;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 12px 4px rgb(237, 254, 255);
+
+}
+#container{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    box-shadow: 2px 2px 12px 10px rgb(255, 255, 255);
+}
+.card{
+    width: 200px !important;
+    height: 200px !important;
+    color: rgb(0, 0, 0);
+    background-color: rgb(96, 106, 255);
+    margin: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 2px 2px 200px 2px rgb(230, 244, 255), 
+                      2px 2px 12px 4px rgb(164, 164, 164);
+    border: none !important;
+}
+.card:hover{
+    background-color: rgb(65, 62, 249);
+}
+/* a{
+    position: relative;
+    top: 10px;
+} */
